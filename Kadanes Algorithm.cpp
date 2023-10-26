@@ -5,7 +5,8 @@ int main()
     int arr[] = {-2,1,-3,4,-1,2,1,-5,4};
     int i, j, n;
     n = sizeof(arr)/sizeof(arr[0]);
-    int local_max = 0;
+    int local_max = arr[0];
+    // int local_max = INT_MIN;
     int sum = 0;
     for(i=0; i<n; i++)
     {
